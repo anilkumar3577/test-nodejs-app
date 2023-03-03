@@ -15,6 +15,10 @@ pipeline {
          }
 
      }
+      stage("test") { 
+         steps { 
+           sh 'echo "for testing"'
+         }
   
    	}
 
