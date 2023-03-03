@@ -19,7 +19,7 @@ pipeline {
          steps { 
            sh 'echo "for testing"'
          }
-  
+      }
    	}
 
    }
